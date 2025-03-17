@@ -1,6 +1,6 @@
-# Advent of Adversaries (Aperion 2025)
+# Advent of Adversaries (Apeireon 2025)
 
-![banner.png](banner.png)
+![aoa.png](aoa.png)
 
 ## What's in here?
 ### `imagenet-subset-224x224/`
@@ -62,4 +62,4 @@ print(index_to_label[pred.argmax().item()])
 - Script to evaluate submissions
 
 ### `requirements.txt`
-- Run `pip install -r requirements.txt` to install the necessary packacges.
+- Run `pip install -r requirements.txt` to install the necessary packages.

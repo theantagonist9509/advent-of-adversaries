@@ -29,7 +29,7 @@ for model_name in ['resnet18', 'resnet34', 'resnet50']:
         #pred = model(norm_img_tensor.unsqueeze(0))
 
         # BE CAREFUL THAT YOU CHECK FOR PERTURBATION LIMITS ON THE RAW (NOT NORMALIZED) TENSOR!
-        # Perturbation logic
+        # Perturbation logic goes here.
         # Since this is only an example, we simply add random noise within the perturbation limit
         img_tensor += 1e-3 * torch.rand_like(img_tensor)
 
